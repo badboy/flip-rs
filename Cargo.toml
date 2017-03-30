@@ -3,7 +3,21 @@ name = "flip"
 version = "0.1.0"
 authors = ["Jan-Erik Rediger <janerik@fnordig.de>"]
 
+repository = "https://github.com/badboy/flip-rs"
+homepage = "https://github.com/badboy/flip-rs"
+
+license = "MIT"
+
 build = "build.rs"
+
+include = [
+  "README.md",
+  "LICENSE",
+  "Cargo.toml",
+  "src/**/*",
+  "benches/**/*",
+  "examples/**/*"
+]
 
 [dependencies]
 phf = "0.7"
