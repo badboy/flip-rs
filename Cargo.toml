@@ -3,6 +3,8 @@ name = "flip"
 version = "0.1.0"
 authors = ["Jan-Erik Rediger <janerik@fnordig.de>"]
 
+description = "˙ʇxǝʇ ɹnoʎ sı os puɐ ˙uʍop ǝpısdn sı p|ɹoʍ ǝɥʇ sǝɯıʇǝɯos"
+
 repository = "https://github.com/badboy/flip-rs"
 homepage = "https://github.com/badboy/flip-rs"
 
@@ -14,6 +16,7 @@ include = [
   "README.md",
   "LICENSE",
   "Cargo.toml",
+  "build.rs",
   "src/**/*",
   "benches/**/*",
   "examples/**/*"

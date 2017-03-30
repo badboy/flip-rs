@@ -6,7 +6,8 @@ use std::io::{ BufWriter, Write };
 use std::path::Path;
 
 fn main() {
-    let path = Path::new(&env::var("OUT_DIR").unwrap()).join("flip_char.rs");
+    let out_dir = env::var("OUT_DIR").unwrap();
+    let path = Path::new(&out_dir).join("flip_char.rs");
     let mut file = BufWriter::new(File::create(&path).unwrap());
 
     write!(&mut file, "/// Compile time generated lookup table for flipped characters.\n").unwrap();
